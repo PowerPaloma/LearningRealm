@@ -18,6 +18,7 @@
 		BE00B5BA21231B2300BFD712 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE00B5B821231B2300BFD712 /* TableViewCell.xib */; };
 		BE00B5BC21231EE300BFD712 /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE00B5BB21231EE300BFD712 /* UsersTableViewController.swift */; };
 		BE00B5C021231FD900BFD712 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE00B5BF21231FD900BFD712 /* User.swift */; };
+		BE9FD69D212705B200E73601 /* AddUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9FD69C212705B200E73601 /* AddUserViewController.swift */; };
 		DE5F82A32123CBD399081196 /* Pods_LearningRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67524AFBF88E66A70FA0DABA /* Pods_LearningRealm.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		BE00B5B821231B2300BFD712 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		BE00B5BB21231EE300BFD712 /* UsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
 		BE00B5BF21231FD900BFD712 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BE9FD69C212705B200E73601 /* AddUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserViewController.swift; sourceTree = "<group>"; };
 		D839284A7B08FAA299FE5080 /* Pods-LearningRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearningRealm/Pods-LearningRealm.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +120,7 @@
 			children = (
 				BE00B5982123007C00BFD712 /* ViewController.swift */,
 				BE00B5BB21231EE300BFD712 /* UsersTableViewController.swift */,
+				BE9FD69C212705B200E73601 /* AddUserViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE9FD69D212705B200E73601 /* AddUserViewController.swift in Sources */,
 				BE00B5AC21230C6800BFD712 /*  DBManager.swift in Sources */,
 				BE00B5AE21230F5200BFD712 /* Contact.swift in Sources */,
 				BE00B5BC21231EE300BFD712 /* UsersTableViewController.swift in Sources */,
